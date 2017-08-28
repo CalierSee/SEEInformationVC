@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="41" id="KGk-i7-Jjw" customClass="SEEDateViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的详细资料" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czp-SW-wEX">
+                        <rect key="frame" x="10" y="13" width="86" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-xh" translatesAutoresizingMaskIntoConstraints="NO" id="NRF-bW-z4g">
+                        <rect key="frame" x="304" y="19" width="6" height="6"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUG-yK-5my">
+                        <rect key="frame" x="116" y="7" width="184" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="29" id="rBQ-id-MEH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="请选择">
+                            <color key="titleColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="see_contentButtonClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="BAV-gE-iWO"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Czp-SW-wEX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="1Eu-KT-z7n"/>
+                    <constraint firstItem="Czp-SW-wEX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="9rb-dk-LB2"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="fUG-yK-5my" secondAttribute="bottom" constant="-0.5" id="CRQ-lE-d6r"/>
+                    <constraint firstItem="fUG-yK-5my" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="lKV-nG-Gu7"/>
+                    <constraint firstItem="fUG-yK-5my" firstAttribute="leading" secondItem="Czp-SW-wEX" secondAttribute="trailing" constant="20" id="nUi-wZ-SLu"/>
+                    <constraint firstItem="NRF-bW-z4g" firstAttribute="leading" secondItem="fUG-yK-5my" secondAttribute="trailing" constant="4" id="otg-fL-KJ3"/>
+                    <constraint firstItem="NRF-bW-z4g" firstAttribute="centerY" secondItem="Czp-SW-wEX" secondAttribute="centerY" id="xqN-Ap-Kj4"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="NRF-bW-z4g" secondAttribute="trailing" constant="2" id="y3t-Cy-e5J"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentButton" destination="fUG-yK-5my" id="MgY-OX-58R"/>
+                <outlet property="heightLayout" destination="rBQ-id-MEH" id="5gh-y1-QiK"/>
+                <outlet property="mustLabel" destination="NRF-bW-z4g" id="Gti-oO-FRx"/>
+                <outlet property="titleLabel" destination="Czp-SW-wEX" id="xjb-lK-IMS"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="50"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon-xh" width="6" height="6"/>
+    </resources>
+</document>

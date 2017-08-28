@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1F41E141F5422C400B24872 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F41E131F5422C400B24872 /* main.m */; };
+		A1F41E171F5422C400B24872 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F41E161F5422C400B24872 /* AppDelegate.m */; };
+		A1F41E1A1F5422C400B24872 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F41E191F5422C400B24872 /* ViewController.m */; };
+		A1F41E1D1F5422C400B24872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F41E1B1F5422C400B24872 /* Main.storyboard */; };
+		A1F41E1F1F5422C400B24872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F41E1E1F5422C400B24872 /* Assets.xcassets */; };
+		A1F41E221F5422C400B24872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F41E201F5422C400B24872 /* LaunchScreen.storyboard */; };
+		A1F41E2D1F5422C400B24872 /* SEEInformationVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F41E2C1F5422C400B24872 /* SEEInformationVCTests.m */; };
+		A1F41E381F5422C400B24872 /* SEEInformationVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F41E371F5422C400B24872 /* SEEInformationVCUITests.m */; };
+		A1F41E771F5422ED00B24872 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1F41E461F5422ED00B24872 /* area.plist */; };
+		A1F41E781F5422ED00B24872 /* information_list.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1F41E471F5422ED00B24872 /* information_list.plist */; };
+		A1F41E791F5422ED00B24872 /* SEEAddressViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F41E4B1F5422ED00B24872 /* SEEAddressViewCell.m */; };
+		A1F41E7A1F5422ED00B24872 /* SEEAddressViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1F41E4C1F5422ED00B24872 /* SEEAddressViewCell.xib */; };
+		A1F41E7B1F5422ED00B24872 /* SEECustomViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F41E4E1F5422ED00B24872 /* SEECustomViewCell.m */; };
+		A1F41E7C1F5422ED00B24872 /* SEECustomViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1F41E4F1F5422ED00B24872 /* SEECustomViewCell.xib */; };
+		A1F41E7D1F5422ED00B24872 /* SEEDateViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F41E511F5422ED00B24872 /* SEEDateViewCell.m */; };
+		A1F41E7E1F5422ED00B24872 /* SEEDateViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1F41E521F5422ED00B24872 /* SEEDateViewCell.xib */; };
+		A1F41E7F1F5422ED00B24872 /* SEEImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F41E541F5422ED00B24872 /* SEEImageViewCell.m */; };
+		A1F41E801F5422ED00B24872 /* SEEImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1F41E551F5422ED00B24872 /* SEEImageViewCell.xib */; };
+		A1F41E811F5422ED00B24872 /* SEEInformationBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F41E571F5422ED00B24872 /* SEEInformationBaseCell.m */; };
+		A1F41E821F5422ED00B24872 /* SEEMutableSelectViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F41E591F5422ED00B24872 /* SEEMutableSelectViewCell.m */; };
+		A1F41E831F5422ED00B24872 /* SEEMutableSelectViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1F41E5A1F5422ED00B24872 /* SEEMutableSelectViewCell.xib */; };
+		A1F41E841F5422ED00B24872 /* SEESelectViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F41E5C1F5422ED00B24872 /* SEESelectViewCell.m */; };
+		A1F41E851F5422ED00B24872 /* SEESelectViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1F41E5D1F5422ED00B24872 /* SEESelectViewCell.xib */; };
+		A1F41E861F5422ED00B24872 /* SEETextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F41E5F1F5422ED00B24872 /* SEETextFieldCell.m */; };
+		A1F41E871F5422ED00B24872 /* SEETextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1F41E601F5422ED00B24872 /* SEETextFieldCell.xib */; };
+		A1F41E881F5422ED00B24872 /* SEETextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F41E621F5422ED00B24872 /* SEETextViewCell.m */; };
+		A1F41E891F5422ED00B24872 /* SEETextViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1F41E631F5422ED00B24872 /* SEETextViewCell.xib */; };
+		A1F41E8A1F5422ED00B24872 /* SEEInformationHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F41E661F5422ED00B24872 /* SEEInformationHeaderView.m */; };
+		A1F41E8B1F5422ED00B24872 /* SEEInformationHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1F41E671F5422ED00B24872 /* SEEInformationHeaderView.xib */; };
+		A1F41E8C1F5422ED00B24872 /* NSObject+information.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F41E691F5422ED00B24872 /* NSObject+information.m */; };
+		A1F41E8D1F5422ED00B24872 /* SEEAddressPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F41E6B1F5422ED00B24872 /* SEEAddressPickerViewController.m */; };
+		A1F41E8E1F5422ED00B24872 /* SEEDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F41E6D1F5422ED00B24872 /* SEEDatePickerViewController.m */; };
+		A1F41E8F1F5422ED00B24872 /* SEEInformationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F41E701F5422ED00B24872 /* SEEInformationVC.m */; };
+		A1F41E901F5422ED00B24872 /* SEEInformationVCDataFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F41E721F5422ED00B24872 /* SEEInformationVCDataFormatter.m */; };
+		A1F41E911F5422ED00B24872 /* SEEMutableSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F41E741F5422ED00B24872 /* SEEMutableSelectViewController.m */; };
+		A1F41E921F5422ED00B24872 /* SEEPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F41E761F5422ED00B24872 /* SEEPickerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1F41E291F5422C400B24872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1F41E071F5422C400B24872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1F41E0E1F5422C400B24872;
+			remoteInfo = SEEInformationVC;
+		};
+		A1F41E341F5422C400B24872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1F41E071F5422C400B24872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1F41E0E1F5422C400B24872;
+			remoteInfo = SEEInformationVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1F41E0F1F5422C400B24872 /* SEEInformationVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SEEInformationVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F41E131F5422C400B24872 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1F41E151F5422C400B24872 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1F41E161F5422C400B24872 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1F41E181F5422C400B24872 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1F41E191F5422C400B24872 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1F41E1C1F5422C400B24872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1F41E1E1F5422C400B24872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1F41E211F5422C400B24872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1F41E231F5422C400B24872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F41E281F5422C400B24872 /* SEEInformationVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SEEInformationVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F41E2C1F5422C400B24872 /* SEEInformationVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEEInformationVCTests.m; sourceTree = "<group>"; };
+		A1F41E2E1F5422C400B24872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F41E331F5422C400B24872 /* SEEInformationVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SEEInformationVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F41E371F5422C400B24872 /* SEEInformationVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEEInformationVCUITests.m; sourceTree = "<group>"; };
+		A1F41E391F5422C400B24872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F41E461F5422ED00B24872 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		A1F41E471F5422ED00B24872 /* information_list.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = information_list.plist; sourceTree = "<group>"; };
+		A1F41E4A1F5422ED00B24872 /* SEEAddressViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEEAddressViewCell.h; sourceTree = "<group>"; };
+		A1F41E4B1F5422ED00B24872 /* SEEAddressViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEEAddressViewCell.m; sourceTree = "<group>"; };
+		A1F41E4C1F5422ED00B24872 /* SEEAddressViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SEEAddressViewCell.xib; sourceTree = "<group>"; };
+		A1F41E4D1F5422ED00B24872 /* SEECustomViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECustomViewCell.h; sourceTree = "<group>"; };
+		A1F41E4E1F5422ED00B24872 /* SEECustomViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECustomViewCell.m; sourceTree = "<group>"; };
+		A1F41E4F1F5422ED00B24872 /* SEECustomViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SEECustomViewCell.xib; sourceTree = "<group>"; };
+		A1F41E501F5422ED00B24872 /* SEEDateViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEEDateViewCell.h; sourceTree = "<group>"; };
+		A1F41E511F5422ED00B24872 /* SEEDateViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEEDateViewCell.m; sourceTree = "<group>"; };
+		A1F41E521F5422ED00B24872 /* SEEDateViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SEEDateViewCell.xib; sourceTree = "<group>"; };
+		A1F41E531F5422ED00B24872 /* SEEImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEEImageViewCell.h; sourceTree = "<group>"; };
+		A1F41E541F5422ED00B24872 /* SEEImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEEImageViewCell.m; sourceTree = "<group>"; };
+		A1F41E551F5422ED00B24872 /* SEEImageViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SEEImageViewCell.xib; sourceTree = "<group>"; };
+		A1F41E561F5422ED00B24872 /* SEEInformationBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEEInformationBaseCell.h; sourceTree = "<group>"; };
+		A1F41E571F5422ED00B24872 /* SEEInformationBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEEInformationBaseCell.m; sourceTree = "<group>"; };
+		A1F41E581F5422ED00B24872 /* SEEMutableSelectViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEEMutableSelectViewCell.h; sourceTree = "<group>"; };
+		A1F41E591F5422ED00B24872 /* SEEMutableSelectViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEEMutableSelectViewCell.m; sourceTree = "<group>"; };
+		A1F41E5A1F5422ED00B24872 /* SEEMutableSelectViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SEEMutableSelectViewCell.xib; sourceTree = "<group>"; };
+		A1F41E5B1F5422ED00B24872 /* SEESelectViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEESelectViewCell.h; sourceTree = "<group>"; };
+		A1F41E5C1F5422ED00B24872 /* SEESelectViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEESelectViewCell.m; sourceTree = "<group>"; };
+		A1F41E5D1F5422ED00B24872 /* SEESelectViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SEESelectViewCell.xib; sourceTree = "<group>"; };
+		A1F41E5E1F5422ED00B24872 /* SEETextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEETextFieldCell.h; sourceTree = "<group>"; };
+		A1F41E5F1F5422ED00B24872 /* SEETextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEETextFieldCell.m; sourceTree = "<group>"; };
+		A1F41E601F5422ED00B24872 /* SEETextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SEETextFieldCell.xib; sourceTree = "<group>"; };
+		A1F41E611F5422ED00B24872 /* SEETextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEETextViewCell.h; sourceTree = "<group>"; };
+		A1F41E621F5422ED00B24872 /* SEETextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEETextViewCell.m; sourceTree = "<group>"; };
+		A1F41E631F5422ED00B24872 /* SEETextViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SEETextViewCell.xib; sourceTree = "<group>"; };
+		A1F41E651F5422ED00B24872 /* SEEInformationHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEEInformationHeaderView.h; sourceTree = "<group>"; };
+		A1F41E661F5422ED00B24872 /* SEEInformationHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEEInformationHeaderView.m; sourceTree = "<group>"; };
+		A1F41E671F5422ED00B24872 /* SEEInformationHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SEEInformationHeaderView.xib; sourceTree = "<group>"; };
+		A1F41E681F5422ED00B24872 /* NSObject+information.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+information.h"; sourceTree = "<group>"; };
+		A1F41E691F5422ED00B24872 /* NSObject+information.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+information.m"; sourceTree = "<group>"; };
+		A1F41E6A1F5422ED00B24872 /* SEEAddressPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEEAddressPickerViewController.h; sourceTree = "<group>"; };
+		A1F41E6B1F5422ED00B24872 /* SEEAddressPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEEAddressPickerViewController.m; sourceTree = "<group>"; };
+		A1F41E6C1F5422ED00B24872 /* SEEDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEEDatePickerViewController.h; sourceTree = "<group>"; };
+		A1F41E6D1F5422ED00B24872 /* SEEDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEEDatePickerViewController.m; sourceTree = "<group>"; };
+		A1F41E6E1F5422ED00B24872 /* SEEInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEEInformation.h; sourceTree = "<group>"; };
+		A1F41E6F1F5422ED00B24872 /* SEEInformationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEEInformationVC.h; sourceTree = "<group>"; };
+		A1F41E701F5422ED00B24872 /* SEEInformationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEEInformationVC.m; sourceTree = "<group>"; };
+		A1F41E711F5422ED00B24872 /* SEEInformationVCDataFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEEInformationVCDataFormatter.h; sourceTree = "<group>"; };
+		A1F41E721F5422ED00B24872 /* SEEInformationVCDataFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEEInformationVCDataFormatter.m; sourceTree = "<group>"; };
+		A1F41E731F5422ED00B24872 /* SEEMutableSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEEMutableSelectViewController.h; sourceTree = "<group>"; };
+		A1F41E741F5422ED00B24872 /* SEEMutableSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEEMutableSelectViewController.m; sourceTree = "<group>"; };
+		A1F41E751F5422ED00B24872 /* SEEPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEEPickerViewController.h; sourceTree = "<group>"; };
+		A1F41E761F5422ED00B24872 /* SEEPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEEPickerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1F41E0C1F5422C400B24872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F41E251F5422C400B24872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F41E301F5422C400B24872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1F41E061F5422C400B24872 = {
+			isa = PBXGroup;
+			children = (
+				A1F41E111F5422C400B24872 /* SEEInformationVC */,
+				A1F41E2B1F5422C400B24872 /* SEEInformationVCTests */,
+				A1F41E361F5422C400B24872 /* SEEInformationVCUITests */,
+				A1F41E101F5422C400B24872 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1F41E101F5422C400B24872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1F41E0F1F5422C400B24872 /* SEEInformationVC.app */,
+				A1F41E281F5422C400B24872 /* SEEInformationVCTests.xctest */,
+				A1F41E331F5422C400B24872 /* SEEInformationVCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1F41E111F5422C400B24872 /* SEEInformationVC */ = {
+			isa = PBXGroup;
+			children = (
+				A1F41E451F5422ED00B24872 /* SEEInformationVC */,
+				A1F41E151F5422C400B24872 /* AppDelegate.h */,
+				A1F41E161F5422C400B24872 /* AppDelegate.m */,
+				A1F41E181F5422C400B24872 /* ViewController.h */,
+				A1F41E191F5422C400B24872 /* ViewController.m */,
+				A1F41E1B1F5422C400B24872 /* Main.storyboard */,
+				A1F41E1E1F5422C400B24872 /* Assets.xcassets */,
+				A1F41E201F5422C400B24872 /* LaunchScreen.storyboard */,
+				A1F41E231F5422C400B24872 /* Info.plist */,
+				A1F41E121F5422C400B24872 /* Supporting Files */,
+			);
+			path = SEEInformationVC;
+			sourceTree = "<group>";
+		};
+		A1F41E121F5422C400B24872 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1F41E131F5422C400B24872 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1F41E2B1F5422C400B24872 /* SEEInformationVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1F41E2C1F5422C400B24872 /* SEEInformationVCTests.m */,
+				A1F41E2E1F5422C400B24872 /* Info.plist */,
+			);
+			path = SEEInformationVCTests;
+			sourceTree = "<group>";
+		};
+		A1F41E361F5422C400B24872 /* SEEInformationVCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1F41E371F5422C400B24872 /* SEEInformationVCUITests.m */,
+				A1F41E391F5422C400B24872 /* Info.plist */,
+			);
+			path = SEEInformationVCUITests;
+			sourceTree = "<group>";
+		};
+		A1F41E451F5422ED00B24872 /* SEEInformationVC */ = {
+			isa = PBXGroup;
+			children = (
+				A1F41E461F5422ED00B24872 /* area.plist */,
+				A1F41E471F5422ED00B24872 /* information_list.plist */,
+				A1F41E481F5422ED00B24872 /* InformationViews */,
+				A1F41E681F5422ED00B24872 /* NSObject+information.h */,
+				A1F41E691F5422ED00B24872 /* NSObject+information.m */,
+				A1F41E6A1F5422ED00B24872 /* SEEAddressPickerViewController.h */,
+				A1F41E6B1F5422ED00B24872 /* SEEAddressPickerViewController.m */,
+				A1F41E6C1F5422ED00B24872 /* SEEDatePickerViewController.h */,
+				A1F41E6D1F5422ED00B24872 /* SEEDatePickerViewController.m */,
+				A1F41E6E1F5422ED00B24872 /* SEEInformation.h */,
+				A1F41E6F1F5422ED00B24872 /* SEEInformationVC.h */,
+				A1F41E701F5422ED00B24872 /* SEEInformationVC.m */,
+				A1F41E711F5422ED00B24872 /* SEEInformationVCDataFormatter.h */,
+				A1F41E721F5422ED00B24872 /* SEEInformationVCDataFormatter.m */,
+				A1F41E731F5422ED00B24872 /* SEEMutableSelectViewController.h */,
+				A1F41E741F5422ED00B24872 /* SEEMutableSelectViewController.m */,
+				A1F41E751F5422ED00B24872 /* SEEPickerViewController.h */,
+				A1F41E761F5422ED00B24872 /* SEEPickerViewController.m */,
+			);
+			path = SEEInformationVC;
+			sourceTree = "<group>";
+		};
+		A1F41E481F5422ED00B24872 /* InformationViews */ = {
+			isa = PBXGroup;
+			children = (
+				A1F41E491F5422ED00B24872 /* Cells */,
+				A1F41E641F5422ED00B24872 /* FooterHeader */,
+			);
+			path = InformationViews;
+			sourceTree = "<group>";
+		};
+		A1F41E491F5422ED00B24872 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A1F41E4A1F5422ED00B24872 /* SEEAddressViewCell.h */,
+				A1F41E4B1F5422ED00B24872 /* SEEAddressViewCell.m */,
+				A1F41E4C1F5422ED00B24872 /* SEEAddressViewCell.xib */,
+				A1F41E4D1F5422ED00B24872 /* SEECustomViewCell.h */,
+				A1F41E4E1F5422ED00B24872 /* SEECustomViewCell.m */,
+				A1F41E4F1F5422ED00B24872 /* SEECustomViewCell.xib */,
+				A1F41E501F5422ED00B24872 /* SEEDateViewCell.h */,
+				A1F41E511F5422ED00B24872 /* SEEDateViewCell.m */,
+				A1F41E521F5422ED00B24872 /* SEEDateViewCell.xib */,
+				A1F41E531F5422ED00B24872 /* SEEImageViewCell.h */,
+				A1F41E541F5422ED00B24872 /* SEEImageViewCell.m */,
+				A1F41E551F5422ED00B24872 /* SEEImageViewCell.xib */,
+				A1F41E561F5422ED00B24872 /* SEEInformationBaseCell.h */,
+				A1F41E571F5422ED00B24872 /* SEEInformationBaseCell.m */,
+				A1F41E581F5422ED00B24872 /* SEEMutableSelectViewCell.h */,
+				A1F41E591F5422ED00B24872 /* SEEMutableSelectViewCell.m */,
+				A1F41E5A1F5422ED00B24872 /* SEEMutableSelectViewCell.xib */,
+				A1F41E5B1F5422ED00B24872 /* SEESelectViewCell.h */,
+				A1F41E5C1F5422ED00B24872 /* SEESelectViewCell.m */,
+				A1F41E5D1F5422ED00B24872 /* SEESelectViewCell.xib */,
+				A1F41E5E1F5422ED00B24872 /* SEETextFieldCell.h */,
+				A1F41E5F1F5422ED00B24872 /* SEETextFieldCell.m */,
+				A1F41E601F5422ED00B24872 /* SEETextFieldCell.xib */,
+				A1F41E611F5422ED00B24872 /* SEETextViewCell.h */,
+				A1F41E621F5422ED00B24872 /* SEETextViewCell.m */,
+				A1F41E631F5422ED00B24872 /* SEETextViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A1F41E641F5422ED00B24872 /* FooterHeader */ = {
+			isa = PBXGroup;
+			children = (
+				A1F41E651F5422ED00B24872 /* SEEInformationHeaderView.h */,
+				A1F41E661F5422ED00B24872 /* SEEInformationHeaderView.m */,
+				A1F41E671F5422ED00B24872 /* SEEInformationHeaderView.xib */,
+			);
+			path = FooterHeader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1F41E0E1F5422C400B24872 /* SEEInformationVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F41E3C1F5422C400B24872 /* Build configuration list for PBXNativeTarget "SEEInformationVC" */;
+			buildPhases = (
+				A1F41E0B1F5422C400B24872 /* Sources */,
+				A1F41E0C1F5422C400B24872 /* Frameworks */,
+				A1F41E0D1F5422C400B24872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SEEInformationVC;
+			productName = SEEInformationVC;
+			productReference = A1F41E0F1F5422C400B24872 /* SEEInformationVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1F41E271F5422C400B24872 /* SEEInformationVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F41E3F1F5422C400B24872 /* Build configuration list for PBXNativeTarget "SEEInformationVCTests" */;
+			buildPhases = (
+				A1F41E241F5422C400B24872 /* Sources */,
+				A1F41E251F5422C400B24872 /* Frameworks */,
+				A1F41E261F5422C400B24872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1F41E2A1F5422C400B24872 /* PBXTargetDependency */,
+			);
+			name = SEEInformationVCTests;
+			productName = SEEInformationVCTests;
+			productReference = A1F41E281F5422C400B24872 /* SEEInformationVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1F41E321F5422C400B24872 /* SEEInformationVCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F41E421F5422C400B24872 /* Build configuration list for PBXNativeTarget "SEEInformationVCUITests" */;
+			buildPhases = (
+				A1F41E2F1F5422C400B24872 /* Sources */,
+				A1F41E301F5422C400B24872 /* Frameworks */,
+				A1F41E311F5422C400B24872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1F41E351F5422C400B24872 /* PBXTargetDependency */,
+			);
+			name = SEEInformationVCUITests;
+			productName = SEEInformationVCUITests;
+			productReference = A1F41E331F5422C400B24872 /* SEEInformationVCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1F41E071F5422C400B24872 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "景彦铭";
+				TargetAttributes = {
+					A1F41E0E1F5422C400B24872 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 36BB695Z56;
+						ProvisioningStyle = Automatic;
+					};
+					A1F41E271F5422C400B24872 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 36BB695Z56;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1F41E0E1F5422C400B24872;
+					};
+					A1F41E321F5422C400B24872 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 36BB695Z56;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1F41E0E1F5422C400B24872;
+					};
+				};
+			};
+			buildConfigurationList = A1F41E0A1F5422C400B24872 /* Build configuration list for PBXProject "SEEInformationVC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1F41E061F5422C400B24872;
+			productRefGroup = A1F41E101F5422C400B24872 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1F41E0E1F5422C400B24872 /* SEEInformationVC */,
+				A1F41E271F5422C400B24872 /* SEEInformationVCTests */,
+				A1F41E321F5422C400B24872 /* SEEInformationVCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1F41E0D1F5422C400B24872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F41E221F5422C400B24872 /* LaunchScreen.storyboard in Resources */,
+				A1F41E831F5422ED00B24872 /* SEEMutableSelectViewCell.xib in Resources */,
+				A1F41E891F5422ED00B24872 /* SEETextViewCell.xib in Resources */,
+				A1F41E851F5422ED00B24872 /* SEESelectViewCell.xib in Resources */,
+				A1F41E871F5422ED00B24872 /* SEETextFieldCell.xib in Resources */,
+				A1F41E771F5422ED00B24872 /* area.plist in Resources */,
+				A1F41E7E1F5422ED00B24872 /* SEEDateViewCell.xib in Resources */,
+				A1F41E781F5422ED00B24872 /* information_list.plist in Resources */,
+				A1F41E8B1F5422ED00B24872 /* SEEInformationHeaderView.xib in Resources */,
+				A1F41E7C1F5422ED00B24872 /* SEECustomViewCell.xib in Resources */,
+				A1F41E7A1F5422ED00B24872 /* SEEAddressViewCell.xib in Resources */,
+				A1F41E1F1F5422C400B24872 /* Assets.xcassets in Resources */,
+				A1F41E801F5422ED00B24872 /* SEEImageViewCell.xib in Resources */,
+				A1F41E1D1F5422C400B24872 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F41E261F5422C400B24872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F41E311F5422C400B24872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1F41E0B1F5422C400B24872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F41E8E1F5422ED00B24872 /* SEEDatePickerViewController.m in Sources */,
+				A1F41E911F5422ED00B24872 /* SEEMutableSelectViewController.m in Sources */,
+				A1F41E841F5422ED00B24872 /* SEESelectViewCell.m in Sources */,
+				A1F41E1A1F5422C400B24872 /* ViewController.m in Sources */,
+				A1F41E811F5422ED00B24872 /* SEEInformationBaseCell.m in Sources */,
+				A1F41E8A1F5422ED00B24872 /* SEEInformationHeaderView.m in Sources */,
+				A1F41E8C1F5422ED00B24872 /* NSObject+information.m in Sources */,
+				A1F41E861F5422ED00B24872 /* SEETextFieldCell.m in Sources */,
+				A1F41E7F1F5422ED00B24872 /* SEEImageViewCell.m in Sources */,
+				A1F41E821F5422ED00B24872 /* SEEMutableSelectViewCell.m in Sources */,
+				A1F41E921F5422ED00B24872 /* SEEPickerViewController.m in Sources */,
+				A1F41E791F5422ED00B24872 /* SEEAddressViewCell.m in Sources */,
+				A1F41E901F5422ED00B24872 /* SEEInformationVCDataFormatter.m in Sources */,
+				A1F41E171F5422C400B24872 /* AppDelegate.m in Sources */,
+				A1F41E141F5422C400B24872 /* main.m in Sources */,
+				A1F41E881F5422ED00B24872 /* SEETextViewCell.m in Sources */,
+				A1F41E7D1F5422ED00B24872 /* SEEDateViewCell.m in Sources */,
+				A1F41E8F1F5422ED00B24872 /* SEEInformationVC.m in Sources */,
+				A1F41E7B1F5422ED00B24872 /* SEECustomViewCell.m in Sources */,
+				A1F41E8D1F5422ED00B24872 /* SEEAddressPickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F41E241F5422C400B24872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F41E2D1F5422C400B24872 /* SEEInformationVCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F41E2F1F5422C400B24872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F41E381F5422C400B24872 /* SEEInformationVCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1F41E2A1F5422C400B24872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1F41E0E1F5422C400B24872 /* SEEInformationVC */;
+			targetProxy = A1F41E291F5422C400B24872 /* PBXContainerItemProxy */;
+		};
+		A1F41E351F5422C400B24872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1F41E0E1F5422C400B24872 /* SEEInformationVC */;
+			targetProxy = A1F41E341F5422C400B24872 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1F41E1B1F5422C400B24872 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1F41E1C1F5422C400B24872 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1F41E201F5422C400B24872 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1F41E211F5422C400B24872 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1F41E3A1F5422C400B24872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1F41E3B1F5422C400B24872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1F41E3D1F5422C400B24872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 36BB695Z56;
+				INFOPLIST_FILE = SEEInformationVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanzhiniao.SEEInformationVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1F41E3E1F5422C400B24872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 36BB695Z56;
+				INFOPLIST_FILE = SEEInformationVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanzhiniao.SEEInformationVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A1F41E401F5422C400B24872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 36BB695Z56;
+				INFOPLIST_FILE = SEEInformationVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanzhiniao.SEEInformationVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SEEInformationVC.app/SEEInformationVC";
+			};
+			name = Debug;
+		};
+		A1F41E411F5422C400B24872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 36BB695Z56;
+				INFOPLIST_FILE = SEEInformationVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanzhiniao.SEEInformationVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SEEInformationVC.app/SEEInformationVC";
+			};
+			name = Release;
+		};
+		A1F41E431F5422C400B24872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 36BB695Z56;
+				INFOPLIST_FILE = SEEInformationVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanzhiniao.SEEInformationVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SEEInformationVC;
+			};
+			name = Debug;
+		};
+		A1F41E441F5422C400B24872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 36BB695Z56;
+				INFOPLIST_FILE = SEEInformationVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanzhiniao.SEEInformationVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SEEInformationVC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1F41E0A1F5422C400B24872 /* Build configuration list for PBXProject "SEEInformationVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F41E3A1F5422C400B24872 /* Debug */,
+				A1F41E3B1F5422C400B24872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F41E3C1F5422C400B24872 /* Build configuration list for PBXNativeTarget "SEEInformationVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F41E3D1F5422C400B24872 /* Debug */,
+				A1F41E3E1F5422C400B24872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1F41E3F1F5422C400B24872 /* Build configuration list for PBXNativeTarget "SEEInformationVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F41E401F5422C400B24872 /* Debug */,
+				A1F41E411F5422C400B24872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1F41E421F5422C400B24872 /* Build configuration list for PBXNativeTarget "SEEInformationVCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F41E431F5422C400B24872 /* Debug */,
+				A1F41E441F5422C400B24872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1F41E071F5422C400B24872 /* Project object */;
+}
